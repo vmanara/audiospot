@@ -1,0 +1,12 @@
+# Artefatos e zips  
+*.zip  
+
+# macOS  
+.DS_Store  
+
+# VS Code  
+.vscode/  
+
+# Build (se tiver)  
+/_site/  
+/public/  

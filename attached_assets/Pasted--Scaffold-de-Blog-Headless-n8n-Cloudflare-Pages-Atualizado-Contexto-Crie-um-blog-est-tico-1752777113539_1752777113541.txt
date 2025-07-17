@@ -1,0 +1,62 @@
+# Scaffold de Blog Headless + n8n + Cloudflare Pages (Atualizado)
+
+## Contexto
+Crie um blog estático de reviews e notícias curtas de produtos.  
+Os artigos serão gerados e armazenados via n8n no GitHub, e o Cloudflare Pages fará deploy automático a cada push.
+## Espaço para criatividade
+Peça ao Replit para sugerir, junto com o scaffold, **3 variações de layout** ou **2 paletas de cores alternativas** que conversem com a identidade da AudioSPOT.
+
+## Stack
+- HTML5, CSS3 e JavaScript puro (sem frameworks front-end).  
+- Marcação de posts em Markdown, em `/public/content/posts/`.  
+- Índice em `/public/posts.json`.  
+- Deploy contínuo via Cloudflare Pages (build automático ao detectar pushes no GitHub).
+
+## Estrutura de Pastas
+/public  
+/assets/css/style.css  
+/assets/js/script.js  
+/assets/images/  
+/content/posts/*.md  
+posts.json  
+index.html  
+blog.html  
+post.html
+
+
+
+## Funcionalidades
+1. **blog.html**  
+   - Lê `posts.json`, gera cards com imagem, título, data e excerpt.  
+   - Linka para `post.html?slug=<slug>`.
+2. **post.html**  
+   - Recebe `?slug`, faz fetch do Markdown em `/content/posts/<slug>.md`.  
+   - Converte MD → HTML com Marked e injeta em `#post-content`.
+3. **posts.json**  
+   - Mantém lista ordenada de `{ slug, title, date, excerpt, image }`.
+4. **Integração WhatsApp/Telegram**  
+   - Botões “Quero ofertas diárias no WhatsApp” → `https://wa.me/...`  
+   - Botões “Quero ofertas diárias no Telegram” → `https://t.me/...`
+
+## Integração n8n
+- **Trigger**: chegada de novo artigo.  
+- **Ação**:  
+  1. Montar Markdown (`content/posts/slug-do-post.md`).  
+  2. Atualizar `posts.json`.  
+  3. GitHub node: commit + push.  
+- **Resultado**: Cloudflare Pages detecta o push e publica automaticamente.
+
+## Identidade Visual (Tipografia & Cores)
+- **Fontes**  
+  - Títulos e destaques: **Aktiv Grotesk Ex**  
+  - Texto corrente: **Inter** ou sistema sans-serif  
+- **Paleta de cores**  
+  - **Preto**: `#000000`  
+  - **Degradê primário**: do `#facc22` (start) ao `#f83600` (end)  
+- **Variáveis CSS** a incluir em `:root` do seu `style.css`:  
+  ```css
+  :root {
+    --color-black: #000000;
+    --color-gradient-start: #facc22;
+    --color-gradient-end:   #f83600;
+  }
