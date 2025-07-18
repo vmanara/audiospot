@@ -1,23 +1,24 @@
+
 [
   {
-    "slug": "review-smartphone-galaxy-s24",
-    "title": "Review: Samsung Galaxy S24 - O Smartphone Premium Que Você Precisa Conhecer",
+    "slug": "review-focusrite-scarlett-2i2-4th-gen",
+    "title": "Review: Focusrite Scarlett 2i2 4th Gen - A Interface Ideal para Guitarristas",
+    "date": "2024-01-20",
+    "excerpt": "Testamos a nova geração da interface de áudio mais popular da Focusrite. Descubra as melhorias nos preamps, qualidade sonora e se vale a pena o upgrade.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Focusrite+Scarlett+2i2"
+  },
+  {
+    "slug": "melhores-monitores-homestudio-2024",
+    "title": "Os 5 Melhores Monitores de Referência para Home Studio em 2024",
+    "date": "2024-01-18",
+    "excerpt": "Seleção dos melhores monitores de estúdio para diferentes orçamentos. Testamos em ambientes domésticos reais com foco em produção musical.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Monitores+Studio"
+  },
+  {
+    "slug": "review-shure-sm57-vs-sm58",
+    "title": "Shure SM57 vs SM58: Qual Microfone Escolher para Seu Home Studio?",
     "date": "2024-01-15",
-    "excerpt": "Análise completa do novo Galaxy S24. Descubra todos os recursos, performance e se vale a pena o investimento neste flagship da Samsung.",
-    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Galaxy+S24"
-  },
-  {
-    "slug": "melhores-ofertas-notebook-janeiro",
-    "title": "As Melhores Ofertas de Notebook em Janeiro 2024",
-    "date": "2024-01-10",
-    "excerpt": "Seleção especial dos notebooks com melhor custo-benefício disponíveis em janeiro. Ofertas imperdíveis para diferentes perfis de usuário.",
-    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Ofertas+Notebook"
-  },
-  {
-    "slug": "review-fone-airpods-pro",
-    "title": "Review: AirPods Pro 2ª Geração - Vale a Pena o Upgrade?",
-    "date": "2024-01-05",
-    "excerpt": "Testamos a segunda geração dos AirPods Pro. Descubra as melhorias, qualidade sonora e se justifica trocar o modelo anterior.",
-    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=AirPods+Pro"
+    "excerpt": "Comparativo definitivo entre os microfones mais icônicos da Shure. Testamos ambos em guitarra, vocal e instrumentos para descobrir qual é melhor.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Shure+SM57+vs+SM58"
   }
 ]
