@@ -12,7 +12,7 @@
     <header class="header">
         <div class="container">
             <div class="logo">
-                <img src="assets_logo/AudioSpot-logo-preto-fundo-transparente_1752841406712.png" alt="AudioSpot">
+                <img src="assets_logo/AudioSpot-logo-fundo-transparente_1752841406712.png" alt="AudioSpot">
             </div>
             <nav class="nav">
                 <a href="index.html">Home</a>
@@ -135,21 +135,33 @@
                 <div class="contact-grid">
                     <div class="contact-info">
                         <h3>Fale Conosco</h3>
-                        <p>Tem alguma dúvida sobre equipamentos de áudio ou quer sugerir um review? Entre em contato conosco!</p>
-                        <div class="contact-methods">
-                            <div class="contact-item">
-                                <strong>Email:</strong>
-                                <a href="mailto:contato@audiospot.com.br">contato@audiospot.com.br</a>
+                        <p>Tem alguma dúvida sobre equipamentos de áudio ou quer sugerir um review? Preencha o formulário abaixo e entraremos em contato!</p>
+                        <form class="contact-form" id="contact-form">
+                            <div class="form-group">
+                                <label for="name">Nome Completo:</label>
+                                <input type="text" id="name" name="name" required>
                             </div>
-                            <div class="contact-item">
-                                <strong>WhatsApp:</strong>
-                                <a href="https://wa.me/5511999999999" target="_blank">(11) 99999-9999</a>
+                            <div class="form-group">
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email" required>
                             </div>
-                            <div class="contact-item">
-                                <strong>Site:</strong>
-                                <a href="https://audiospot.pages.dev" target="_blank">audiospot.pages.dev</a>
+                            <div class="form-group">
+                                <label for="subject">Assunto:</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Selecione um assunto</option>
+                                    <option value="review">Sugestão de Review</option>
+                                    <option value="duvida">Dúvida sobre Equipamento</option>
+                                    <option value="oferta">Informar Oferta</option>
+                                    <option value="parceeria">Parceria/Colaboração</option>
+                                    <option value="outro">Outro</option>
+                                </select>
                             </div>
-                        </div>
+                            <div class="form-group">
+                                <label for="message">Mensagem:</label>
+                                <textarea id="message" name="message" rows="5" required placeholder="Descreva sua dúvida, sugestão ou feedback..."></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+                        </form>
                     </div>
                     <div class="contact-cta">
                         <h3>Siga Nossas Redes</h3>

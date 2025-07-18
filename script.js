@@ -44,6 +44,26 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
+
+    // Contact form functionality
+    const contactForm = document.getElementById('contact-form');
+    if (contactForm) {
+        contactForm.addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(contactForm);
+            const name = formData.get('name');
+            const email = formData.get('email');
+            const subject = formData.get('subject');
+            const message = formData.get('message');
+            
+            // Simulate form submission
+            if (name && email && subject && message) {
+                alert(`Obrigado ${name}! Sua mensagem sobre "${subject}" foi enviada. Entraremos em contato através do email ${email} em breve.`);
+                contactForm.reset();
+            }
+        });
+    }
 });
 
 function createPostCard(post) {
