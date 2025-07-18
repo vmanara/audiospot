@@ -1,54 +1,45 @@
-{
-  "posts": [
-    {
-      "slug": "sample-review",
-      "title": "Review: Fones de Ouvido Wireless XYZ",
-      "date": "2025-01-15",
-      "excerpt": "Análise completa dos fones de ouvido wireless XYZ com cancelamento de ruído e bateria de longa duração.",
-      "image": "https://images.unsplash.com/photo-1484704849700-f032a568e944?w=600&h=400&fit=crop",
-      "category": "review",
-      "tags": ["áudio", "wireless", "review"],
-      "author": "AudioSPOT Team"
-    },
-    {
-      "slug": "sample-news",
-      "title": "Novidades em Tecnologia de Áudio 2025",
-      "date": "2025-01-10",
-      "excerpt": "Confira as principais tendências e lançamentos do mundo da tecnologia de áudio para este ano.",
-      "image": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop",
-      "category": "news",
-      "tags": ["tecnologia", "áudio", "tendências"],
-      "author": "AudioSPOT Team"
-    },
-    {
-      "slug": "monitor-krk-rokit-review",
-      "title": "Monitor KRK Rokit 5 G4: Review Completo",
-      "date": "2025-01-20",
-      "excerpt": "Análise detalhada do monitor de estúdio KRK Rokit 5 G4, incluindo qualidade sonora, construção e relação custo-benefício.",
-      "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=400&fit=crop&crop=center",
-      "category": "review",
-      "tags": ["monitor", "krk", "estúdio", "review"],
-      "author": "João Silva"
-    },
-    {
-      "slug": "como-escolher-interface-audio",
-      "title": "Como Escolher a Interface de Áudio Perfeita",
-      "date": "2025-01-18",
-      "excerpt": "Guia completo para escolher a interface de áudio ideal para seu home studio, com dicas práticas e recomendações.",
-      "image": "https://images.unsplash.com/photo-1598653222000-6b7b7a552625?w=800&h=400&fit=crop&crop=center",
-      "category": "tutorial",
-      "tags": ["interface", "áudio", "tutorial", "home studio"],
-      "author": "Maria Santos"
-    },
-    {
-      "slug": "focusrite-vs-behringer-interface",
-      "title": "Focusrite Scarlett vs Behringer UMC: Comparação Completa",
-      "date": "2025-01-22",
-      "excerpt": "Comparação detalhada entre as interfaces Focusrite Scarlett 2i2 e Behringer UMC202HD para ajudar na sua decisão.",
-      "image": "https://images.unsplash.com/photo-1598488035139-bdbb2231ce04?w=800&h=400&fit=crop&crop=center",
-      "category": "comparison",
-      "tags": ["focusrite", "behringer", "interface", "comparação"],
-      "author": "Carlos Oliveira"
-    }
-  ]
-}
+
+[
+  {
+    "slug": "review-focusrite-scarlett-2i2-4th-gen",
+    "title": "Review: Focusrite Scarlett 2i2 4th Gen - A Interface Definitiva para Guitarristas",
+    "date": "2024-01-15",
+    "excerpt": "Testamos a nova geração da interface de áudio mais popular do mundo. Descubra se ela realmente vale o investimento para seu homestudio de guitarra.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Scarlett+2i2"
+  },
+  {
+    "slug": "melhores-monitores-homestudio-2024",
+    "title": "Os 5 Melhores Monitores de Referência para Homestudio em 2024",
+    "date": "2024-01-10",
+    "excerpt": "Guia completo dos melhores monitores de estúdio para diferentes orçamentos. Comparativo detalhado com testes práticos em ambientes domésticos.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Monitores+Studio"
+  },
+  {
+    "slug": "review-audio-technica-ath-m50x",
+    "title": "Review: Audio-Technica ATH-M50x - O Fone de Referência Que Todo Produtor Deveria Ter",
+    "date": "2024-01-05",
+    "excerpt": "Análise completa do fone de ouvido mais recomendado para mixagem e produção musical. Vale a pena o investimento?",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=ATH-M50x"
+  },
+  {
+    "slug": "shure-sm57-vs-sm58-comparativo",
+    "title": "Shure SM57 vs SM58: Qual Microfone Escolher Para Seu Homestudio?",
+    "date": "2024-01-01",
+    "excerpt": "Comparativo definitivo entre os microfones mais icônicos da Shure. Descubra qual é melhor para gravação de guitarra, vocal e instrumentos.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Shure+SM57+vs+SM58"
+  },
+  {
+    "slug": "homestudio-guitarra-1500-reais",
+    "title": "Como Montar Seu Primeiro Homestudio de Guitarra Com R$ 1.500",
+    "date": "2023-12-28",
+    "excerpt": "Guia completo para montar um homestudio funcional para gravação de guitarra com orçamento limitado. Lista de equipamentos e dicas de setup.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Homestudio+Setup"
+  },
+  {
+    "slug": "melhores-cabos-guitarra-2024",
+    "title": "Os Melhores Cabos de Guitarra: Teste Blind com 10 Marcas Diferentes",
+    "date": "2023-12-25",
+    "excerpt": "Será que cabo faz diferença no som? Fizemos um teste blind com 10 cabos de diferentes preços para descobrir a verdade.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Cabos+Guitarra"
+  }
+]
