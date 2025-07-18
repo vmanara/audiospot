@@ -1,45 +1,23 @@
-
 [
   {
-    "slug": "review-focusrite-scarlett-2i2-4th-gen",
-    "title": "Review: Focusrite Scarlett 2i2 4th Gen - A Interface Definitiva para Guitarristas",
+    "slug": "review-smartphone-galaxy-s24",
+    "title": "Review: Samsung Galaxy S24 - O Smartphone Premium Que Você Precisa Conhecer",
     "date": "2024-01-15",
-    "excerpt": "Testamos a nova geração da interface de áudio mais popular do mundo. Descubra se ela realmente vale o investimento para seu homestudio de guitarra.",
-    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Scarlett+2i2"
+    "excerpt": "Análise completa do novo Galaxy S24. Descubra todos os recursos, performance e se vale a pena o investimento neste flagship da Samsung.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Galaxy+S24"
   },
   {
-    "slug": "melhores-monitores-homestudio-2024",
-    "title": "Os 5 Melhores Monitores de Referência para Homestudio em 2024",
+    "slug": "melhores-ofertas-notebook-janeiro",
+    "title": "As Melhores Ofertas de Notebook em Janeiro 2024",
     "date": "2024-01-10",
-    "excerpt": "Guia completo dos melhores monitores de estúdio para diferentes orçamentos. Comparativo detalhado com testes práticos em ambientes domésticos.",
-    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Monitores+Studio"
+    "excerpt": "Seleção especial dos notebooks com melhor custo-benefício disponíveis em janeiro. Ofertas imperdíveis para diferentes perfis de usuário.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Ofertas+Notebook"
   },
   {
-    "slug": "review-audio-technica-ath-m50x",
-    "title": "Review: Audio-Technica ATH-M50x - O Fone de Referência Que Todo Produtor Deveria Ter",
+    "slug": "review-fone-airpods-pro",
+    "title": "Review: AirPods Pro 2ª Geração - Vale a Pena o Upgrade?",
     "date": "2024-01-05",
-    "excerpt": "Análise completa do fone de ouvido mais recomendado para mixagem e produção musical. Vale a pena o investimento?",
-    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=ATH-M50x"
-  },
-  {
-    "slug": "shure-sm57-vs-sm58-comparativo",
-    "title": "Shure SM57 vs SM58: Qual Microfone Escolher Para Seu Homestudio?",
-    "date": "2024-01-01",
-    "excerpt": "Comparativo definitivo entre os microfones mais icônicos da Shure. Descubra qual é melhor para gravação de guitarra, vocal e instrumentos.",
-    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Shure+SM57+vs+SM58"
-  },
-  {
-    "slug": "homestudio-guitarra-1500-reais",
-    "title": "Como Montar Seu Primeiro Homestudio de Guitarra Com R$ 1.500",
-    "date": "2023-12-28",
-    "excerpt": "Guia completo para montar um homestudio funcional para gravação de guitarra com orçamento limitado. Lista de equipamentos e dicas de setup.",
-    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Homestudio+Setup"
-  },
-  {
-    "slug": "melhores-cabos-guitarra-2024",
-    "title": "Os Melhores Cabos de Guitarra: Teste Blind com 10 Marcas Diferentes",
-    "date": "2023-12-25",
-    "excerpt": "Será que cabo faz diferença no som? Fizemos um teste blind com 10 cabos de diferentes preços para descobrir a verdade.",
-    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=Cabos+Guitarra"
+    "excerpt": "Testamos a segunda geração dos AirPods Pro. Descubra as melhorias, qualidade sonora e se justifica trocar o modelo anterior.",
+    "image": "https://via.placeholder.com/400x220/ff6b35/ffffff?text=AirPods+Pro"
   }
 ]
